@@ -13,7 +13,9 @@ public class BookMyShowTest {
 		public void bookMyShow() throws InterruptedException
 		{
 			BookMyshowHomepage show=new BookMyshowHomepage(driver);
+			Thread.sleep(3000);
 			show.selectRegion();
+			Thread.sleep(3000);
 			show.clickOnFrstBox();
 			show.clickOnBookTickets();
 			show.selectDate();
